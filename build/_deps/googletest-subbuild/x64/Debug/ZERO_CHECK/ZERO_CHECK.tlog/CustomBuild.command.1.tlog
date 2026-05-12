@@ -1,0 +1,10 @@
+^C:\USERS\MOHAM\DOWNLOADS\ASSIGNMENT-3-GRAPHS\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\4D9366FA90CC857927E28EAD93583FEA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/moham/Downloads/Assignment-3-Graphs/build/_deps/googletest-subbuild -BC:/Users/moham/Downloads/Assignment-3-Graphs/build/_deps/googletest-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/moham/Downloads/Assignment-3-Graphs/build/_deps/googletest-subbuild/googletest-populate.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

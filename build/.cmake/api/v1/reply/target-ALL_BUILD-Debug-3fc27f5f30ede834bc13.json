@@ -1,0 +1,83 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Code_library_run::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "gmock::@0f7bb11d64f3678238c7"
+		},
+		{
+			"id" : "gmock_main::@0f7bb11d64f3678238c7"
+		},
+		{
+			"id" : "Code_library::@6ecad265c1cc43df2513"
+		},
+		{
+			"id" : "Google_Tests_run::@eb06d550d4862b816b8d"
+		},
+		{
+			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "Code_library_run::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "gmock::@0f7bb11d64f3678238c7"
+		},
+		{
+			"id" : "gmock_main::@0f7bb11d64f3678238c7"
+		},
+		{
+			"id" : "Code_library::@6ecad265c1cc43df2513"
+		},
+		{
+			"id" : "Google_Tests_run::@eb06d550d4862b816b8d"
+		},
+		{
+			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,10 @@
+^C:\USERS\MOHAM\DOWNLOADS\ASSIGNMENT-3-GRAPHS\BUILD\CMAKEFILES\74BD9EC3274933E0F44B1D3EAC5BE47E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/moham/Downloads/Assignment-3-Graphs -BC:/Users/moham/Downloads/Assignment-3-Graphs/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/moham/Downloads/Assignment-3-Graphs/build/Fall2025_assignment3.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
